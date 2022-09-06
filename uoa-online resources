@@ -1,0 +1,72 @@
+<!DOCTYPE html> 
+<html lang="en"> 
+<head> 
+<meta charset="UTF-8"> 
+<title>HTML/CSS Exam Question</title> 
+<style> 
+ body {background-color: pink;  
+       font-family: "Arial", "Calibri", Sans-Serif} 
+ h1 {background-color:rgb(0,0,0); color:#E6FFE6;  
+      text-transform:uppercase; text-align:center} 
+ h2 {background-color:rgb(0,0,0); color:#E6FFE6;  
+      font-variant:small-caps}  
+ table, tr, td { border: 2px solid black;} 
+ #emphasis{font-size:large; color:red} 
+ #center {text-align:center} 
+ #tablehead {background-color:rgb(0,0,0); color:#E6FFE6; 
+  font-weight:bold; text-align:center} 
+ .glossary{font-style:italic; font-weight:bold} 
+ .stat{text-align:right; font-weight:bold} 
+</style> 
+</head> 
+<body> 
+    <h1> ONLINE LEARNING RESOURCES AT UOA </h1>
+
+    <div>
+        <img src="Aucklandonline.png" alt="Auckland Online Icon">
+    </div>
+
+    <p> The icon shown above, is the main logo used when the University of Auckalnd is discussing its online learning resources. 
+        The University has a <a href = "https://www.online.auckland.ac.nz/"> link 
+       </a> to a .png version of the logo
+    </p>
+
+<section>
+    <h2> Online Student Statistics </h2> 
+    <table>
+        <tr id ="tablehead">
+            <td> Type of Degree </td>
+            <td> Student Count </td>
+        </tr>
+        <tr>
+            <td class="stat">Law </td>
+            <td class="stat">350 </td>
+        </tr>
+        <tr>
+            <td class="stat">STEM </td>
+            <td class="stat">1,154 </td>
+        </tr>
+        <tr>
+            <td class="stat">Engineering </td>
+            <td class="stat">1,456 </td>
+        </td>
+    </table>
+</section>
+    
+<section>
+    <h2> UofA Online Glossary OF Slang </h2>
+    
+    <p> The following are some terms often used in dicussions by the students taking courses online a the university.</p>
+    
+    <dl>
+        <dt class="glossary">Paper Chasers </dt>
+        <dd> Law students. </dd>
+        <dt class="glossary">Nerds </dt>
+        <dd> STEM students. </dd>
+        <dt class="glossary">Geers </dt>
+        <dd> Engineering students. </dd>
+    </dl>	
+</section>
+
+</body>
+</html>
