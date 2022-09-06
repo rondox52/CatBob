@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kawhi </title>
+</head>
+<head>
+<style>
+    img {
+  border: 3px solid #000;
+}
+    .stats{
+     margin:40px 00 10px;
+
+}
+    .secondtable{
+    margin:40px 600px;
+
+}
+    td {
+    padding: 0 15px;
+}
+</style>
+</head>
+<body>
+
+    <div class="kawhi">
+    <img src="kawhi.png" alt="Kawhi Leonard" height="150" width="150" align="top" style="float:left; margin-right: 10px;">
+    <h2>Kawhi Leonard</h2>
+    <p> <b>Pronunciation:</b>\kah-WHY\</p>
+    <p><b>Nicknames:</b>The Claw, Board Man, Fun Guy, The Hand, The Terminator</p>
+    <p> <b>Position:</b> Small Forward <b>Shoots:</b>Right</p>
+   </div>
+    
+    <div class="stats">
+        <table>
+            <tr>
+                <th>Summary</th>
+                <th>G</th>
+                <th>PTS</th>
+                <th>TRB</th>
+                <th>AST</th>
+                <th>FG%</th>
+                <th>FG3%</th>
+                <th>FT%</th>
+                <th>eFG%</th>
+                <th>PER</th>
+                <th>WS</th>  
+            </tr>
+            <tr>
+                <td>Career</td>
+                <td>575</td>
+                <td>19.2</td>
+                <td>6.4</td>
+                <td>2.9</td>
+                <td>49.3</td>
+                <td>38.4</td>
+                <td>85.8</td>
+                <td>54.7</td>
+                <td>23.4</td>
+                <td>83.3</td>
+            </tr>
+        </table>
+    </div>
+
+    <div class="secondtable">
+        <table>
+            <tr></tr>
+            <tr></tr>
+
+            <tr>
+                <td>5x All Star</td>
+                <td>2014-15 STL Champ</td>
+            </tr>
+
+            <tr>
+                <td>2x NBA Champ</td>
+                <td>5x ALL-NBA</td>
+            </tr>
+
+            <tr>
+                <td>2011-12 All-Rookie</td>
+                <td>7x All-Defensive</td>
+            </tr>
+
+            <tr>
+                <td>2x Finals MVP</td>
+                <td>2x Def. POY</td>
+            </tr>
+
+            <tr>
+                <td>2019-20 AS MVP</td>
+                <td>NBA 75th Anniv.Team</td>
+            </tr>
+
+        </table>
+    </div>
+        
+
+</body>
+</html>
