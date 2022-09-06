@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Trees-computerscience</title>
+  <style>
+    body {
+        font-family: "Arial", "Calibri", Sans-Serif;
+    }
+    h1, h2 {
+        text-align: center;
+        border-bottom-color: black; border-bottom-style: solid;
+        color: black; text-transform: uppercase; }
+    dl, dt { border: 2px solid black;}
+    #emphasis {font-weight:bold; color:red;}
+  </style>
+</head>
+
+<body>
+
+    <h1> Trees in Computer Science </h1>
+    
+    <section>
+    <h2> General Information </h2>
+    <p> Trees are a type of <span id = "emphasis"> data structure </span> used in many areas of computer science. </p>
+    <p> One special type of tree is a <a href = "https://en.wikipedia.org/wiki/Binary_tree#Types_of_binary_trees/"> binary tree</a>. An example of a binary tree is shown below.</p>
+    <img src = "bintree.png" >
+    </section>
+    
+    <section>
+    <h2> Definitions </h2>
+    <dl>
+    <dt> Root node </dt>
+    <dd> Topmost node in tree, has no parent node </dd>
+    <dt> Parent node </dt>
+    <dd> Node directly connected to a node beneath it </dd>
+    <dt> Child node </dt>
+    <dd> Node with a parent node. </dd>
+    </dl>
+    </section>
+    
+    <section>
+    <h2> Applications </h2>
+    <ol>
+    <li> Genealogy </li>
+    <li> Computer file structures. </li>
+    <li> Company organizational structure. </li>
+    </ol>
+    </section>
+    
+</body>
+</html>
