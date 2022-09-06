@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>My Cat Bob</title>
+  <style>
+    body {
+        background-color: lightsalmon; font-family: sans-serif;
+    }
+    h1, h2 {
+        background-color: blanchedalmond; text-align: center;
+        color: saddlebrown; font-variant: small-caps;
+    }
+    img {
+        max-height: 25em; border: 2px solid saddlebrown;
+    }
+    table, tr, td, th {
+        border: 1px solid saddlebrown;
+    }
+    th {
+        font-variant: small-caps; background-color: salmon;
+    }
+
+     /* Used on the word "win" */
+    .emph {
+        font-style: italic;
+    }
+    /* Used on the words "that amazing" */
+    .shout {
+        font-weight: bold; font-style: italic; color: white;
+    }
+  </style>
+</head>
+
+<h1> My Cat Bob!! </h1>
+
+<section>
+<p> I have a cat called Bob who is a GOOD CAT! Look! </p>
+<img src = "bob.jpg" >
+
+<p> I believe if Bob was in a <a href = "https://en.m.wikipedia.org/wiki/Cat_show">
+cat show </a> they would <span class = "emph"> win </span> 
+because they are just <span class = "shout"> that amazing</span>!.</p>
+</section>
+
+<h2> Some Quick Facts About Bob </h2>
+
+<section>
+<ul>
+  <li>Bob is a GOOD CAT</li>
+  <li>Bob has no tail</li>
+  <li>Bob is orange like Garfield</li>
+</ul>
+</section>
+
+<h2> In Conclusion </h2>
+
+<p> Bob is amazing. And, you can refer to the 
+helpful table below for facts about bob:</p>
+
+<section>
+<table>
+    <tr>
+        <th> Feature </th>
+        <th> Quality </th>
+    </tr>
+    <tr>
+        <td> Status </td>
+        <td> Fluffy </td>
+    </tr>
+    <tr>
+        <td> Size </td>
+        <td> Small </td>
+    </tr>
+    <tr>
+        <td> Name </td>
+        <td> Bob </td>
+    </td>
+</table>
+</section>
+</body>
+</html>
